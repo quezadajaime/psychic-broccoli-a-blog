@@ -1,9 +1,21 @@
 [
     {
-        "tite": "Test",
-        "descrition": "test",
-        "date_created": "10/29/23",
-        "user_id": 2
+      "title": "Pluto is not a Planet",
+      "description": "On Aug. 24, 2006, the International Astronomical Union voted to strictly define a planet, which ultimately downgraded Pluto from the ninth planet from the sun to a dwarf planet — causing controversy both scientifically and culturally.",
+      "date_created": "October 15, 2006",
+      "user_id": 1
+    },
+    {
+      "title": "Futurama Reboot",
+      "description": "Hulu finally announced it: Futurama will return for its 11th season on July 24th, 2023, giving us the chance to check back in with Bender, Fry, Leela, and the rest of the Planet Express crew",
+      "date_created": "January 2, 2022",
+      "user_id": 2
+    },
+    {
+      "title": "2023 Annular Solar Eclipse",
+      "description": "A rare celestial spectacle appeared over the Americas Saturday — the likes of which won’t be seen again in this part of the world until 2046.",
+      "date_created": "May 18, 2023",
+      "user_id": 3
     }
-
-]
+  ]
+  

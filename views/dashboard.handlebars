@@ -1,28 +1,41 @@
-{{! Create Post }}
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 mx-auto text-left">
-
-            <form class="createBlogPost">
-                {{! POST }}
-                {{! title }}
-                <div class="mt-5 mb-3">
-                    <label class="form-label">Title</label>
-                    <input class="form-control" id="titleInput" maxlength="50" />
-                </div>
-                {{! body }}
-                <div class="mb-3">
-                    <label class="form-label">Body</label>
-                    <textarea class="form-control" id="bodyInput" rows="10"></textarea>
-                </div>
-                {{! submit Btn }}
-                <div class="text-center">
-                    <button type="submit" class="text-center mt-3 btn btn-dark btn-lg btn-block">Submit</button>
-                </div>
-            </form>
-
-        </div>
+{{!-- User Dashboard Page --}}
+<div class="row">
+    <div class="text-center mx-auto pt-2 user-name">
+        <h2 id="blogName">{{name}}'s Blog</h2>
     </div>
 </div>
+<div class="text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 mx-auto text-left mt-5">
+                {{#if blogPosts.length}}
+                {{#each blogPosts as |blogPost|}}
+                {{> dashboardPost blogPost}}
+                <br>
+                {{/each}}
+                {{/if}}
+            </div>
+        </div>
+    </div>
 
-<script src="/js/newPostHandler.js"></script>
+    {{#if (is_my_page user.id userId)}}
+    <div class="container">
+        <div class="row text-center">
+            <a href="/create"><button class="btn btn-dark mt-3">Create a post!</button></a>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
+    </div>
+    {{else}}
+    <div class="container">
+        <div class="row justify-content-center">
+            <p>This user hasn't created any posts yet!</p>
+        </div>
+    </div>
+    {{/if}}
+</div>
+
+<script src="/js/dashboard.js"></script>

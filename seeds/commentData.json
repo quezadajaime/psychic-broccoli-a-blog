@@ -1,8 +1,38 @@
 [
-    {
-      "comment_body": "Thats whay I was thinking too!",
-      "date_created": "October 15, 2023",
-      "user_id": 2,
-      "blogPost_id": 1
-    }
+  {
+    "comment_body": "Pluto is still a planet in my book",
+    "date_created": "January 15, 2022",
+    "user_id": 2,
+    "blogPost_id": 1
+  },
+  {
+    "comment_body": "So do they have to re-write science books?",
+    "date_created": "June 2, 2022",
+    "user_id": 3,
+    "blogPost_id": 1
+  },
+  {
+    "comment_body": "Finally I've been waiting for ever!",
+    "date_created": "March 18, 2022",
+    "user_id": 3,
+    "blogPost_id": 2
+  },
+  {
+    "comment_body": "Isn't the voice of Bender going to be some other guy?",
+    "date_created": "November 1, 2022",
+    "user_id": 1,
+    "blogPost_id": 2
+  },
+  {
+    "comment_body": "I'll probably wait for the next one to come back",
+    "date_created": "May 28, 2023",
+    "user_id": 2,
+    "blogPost_id": 3
+  },
+  {
+    "comment_body": "Where is the next solar eclipse?",
+    "date_created": "May 30, 2023",
+    "user_id": 1,
+    "blogPost_id": 3
+  }
 ]
