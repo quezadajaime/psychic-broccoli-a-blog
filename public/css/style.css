@@ -17,7 +17,7 @@ header {
   }
   
   #blogName {
-    color: #ffe5ec;
+    color: black;
   }
   
   main {
@@ -70,15 +70,15 @@ header {
   /* Card styles */
   
   .card-header {
-    background-color: #1b2b47;
+    background-color: #a9c6f8;
   }
   
   .card-body {
-    background-color: #ffe5ec;
+    background-color: white;
   }
   
   .card {
-    background-color: #ffe5ec;
+    background-color: grey;
   }
   
   .card:hover {
