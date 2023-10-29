@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Phillip Fry",
+      "email": "takemymoney@email.com",
+      "password": "password1"
+    },
+    {
+      "name": "Bender Rodriguez",
+      "email": "shineythings@email.com",
+      "password": "password12"
+    },
+    {
+      "name": "Hubert Farnsworth",
+      "email": "eureka@email.com",
+      "password": "password123"
+    }
+  ]

@@ -28,7 +28,7 @@ router.get("/", async (req, res) => {
                     attributes: ["username"],
                 },
                 {
-                    model: blogPost,
+                    model: BlogPost,
                     attributes: ["id"],
                 },
             ],
@@ -40,7 +40,7 @@ router.get("/", async (req, res) => {
 });
 
 //updates the comment
-router.put("/:id", async (res, res) => {
+router.put("/:id", async (req, res) => {
     try {
         const updatedComment = await Comment.update(req.body, {
             where: {

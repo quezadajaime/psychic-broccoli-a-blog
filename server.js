@@ -41,5 +41,11 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(routes);
 
 sequelize.sync({ force: false }).then(() => {
-    app.listen(PORT, () => console.log("Now listening to Port 3001"));
+    let message = "Now listening";
+
+    if (PORT === 3001) {
+        message += `🚀 at http://localhost:${PORT} 🚀`
+    };
+
+    app.listen(PORT, () => console.log(message));
 });
